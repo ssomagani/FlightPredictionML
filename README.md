@@ -8,3 +8,6 @@ Steps to run (assuming you have VoltDB and H2O installed)
 2. Train the model using your own data or data from data/ (using the H2O Flow UI or a language SDK)
 3. Export the trained model as Java class.
 4. Create a new stored procedure that accepts new events and calls the trained model class to make the predictions
+
+In this project, I have implemented a Linear Regression Model for Flight Prediction. 
+On the test set, this model only gets about 69% accuracy but it's a place to start.
